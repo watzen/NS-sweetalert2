@@ -1,0 +1,26 @@
+<usereventscript scriptid="customscript_wtz_ue_je_update_memo">
+  <description>This is a demo script for usage of sweetalert2 in Netsuite</description>
+  <isinactive>F</isinactive>
+  <name>JE Update Memo</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/models/journalentry/userevent/wtz_ue_journalentry_update_memo.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_wtz_ue_je_update_memo">
+      <allemployees>F</allemployees>
+      <alllocalizationcontexts>T</alllocalizationcontexts>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <executioncontext>USERINTERFACE</executioncontext>
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <recordtype>JOURNALENTRY</recordtype>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>
