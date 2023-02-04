@@ -1,0 +1,4 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>Sweetalert2 in Netsuite</projectname>
+  <frameworkversion>1.0</frameworkversion>
+</manifest>
