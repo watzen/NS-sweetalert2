@@ -1,0 +1,39 @@
+{
+  "author": "Tomas Watz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/watzen/NS-sweetalert2#issues"
+  },
+  "homepage": "https://github.com/watzen/NS-sweetalert2#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watzen/NS-sweetalert2.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "buildAndDeployDryrun": "webpack && suitecloud project:deploy --dryrun",
+    "buildAndDeploy": "webpack && suitecloud project:deploy",
+    "deployDryrun": "suitecloud project:deploy --dryrun",
+    "deploy": "suitecloud project:deploy"
+  },
+  "devDependencies": {
+    "@hitc/netsuite-types": "^2022.2.16",
+    "@oracle/suitecloud-cli": "^1.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-suitescript": "^1.2.1",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-node": "^11.1.0",
+    "typescript": "^4.9.5",
+    "node-fetch": "^2.6.9",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.7.1"
+  }
+}

@@ -3,7 +3,8 @@
         <path>~/AccountConfiguration/*</path>
     </configuration>
     <files>
-        <path>~/FileCabinet/*</path>
+        <path>~/FileCabinet/SuiteScripts/models/journalentry/client/wtz_cs_update_memo_button_function.js</path>
+        <path>~/FileCabinet/SuiteScripts/models/journalentry/userevent/wtz_ue_journalentry_update_memo.js</path>
     </files>
     <objects>
         <path>~/Objects/*</path>
